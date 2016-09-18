@@ -1,0 +1,264 @@
+08-18-2016 @ 23:16:29 - Info: Begin processing payment for order 68 for the amount of 95.8
+08-18-2016 @ 23:16:29 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 9580
+    [description] => WooCommerce - Order 68
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_18k3UXLrHHJALCjzfawHV9Ym
+)
+
+08-18-2016 @ 23:16:30 - Processing response: stdClass Object
+(
+    [id] => ch_18k3UdLrHHJALCjzmbonJzfY
+    [object] => charge
+    [amount] => 9580
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18k3UeLrHHJALCjzBpkV2XK3
+            [object] => balance_transaction
+            [amount] => 9580
+            [available_on] => 1472169600
+            [created] => 1471576587
+            [currency] => cad
+            [description] => WooCommerce - Order 68
+            [fee] => 308
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 308
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9272
+            [source] => ch_18k3UdLrHHJALCjzmbonJzfY
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18k3UdLrHHJALCjzmbonJzfY
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1471576587
+    [currency] => cad
+    [customer] => 
+    [description] => WooCommerce - Order 68
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18k3UdLrHHJALCjzmbonJzfY/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18k3UWLrHHJALCjzW53sfo74
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 7
+            [exp_year] => 2018
+            [fingerprint] => berMzQISdJ6IGoSg
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => quirion.mel@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+08-18-2016 @ 23:16:33 - Successful charge: ch_18k3UdLrHHJALCjzmbonJzfY
+08-20-2016 @ 21:44:25 - Info: Begin processing payment for order 75 for the amount of 22.68
+08-20-2016 @ 21:44:25 - charges request: Array
+(
+    [currency] => cad
+    [amount] => 2268
+    [description] => WooMusic - Order 75
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_18kl0XLrHHJALCjz3hONAXaR
+)
+
+08-20-2016 @ 21:44:26 - Processing response: stdClass Object
+(
+    [id] => ch_18kl0dLrHHJALCjzcm1lFnj5
+    [object] => charge
+    [amount] => 2268
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18kl0eLrHHJALCjznW5Rwuud
+            [object] => balance_transaction
+            [amount] => 2268
+            [available_on] => 1472342400
+            [created] => 1471743863
+            [currency] => cad
+            [description] => WooMusic - Order 75
+            [fee] => 96
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 96
+                            [application] => 
+                            [currency] => cad
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2172
+            [source] => ch_18kl0dLrHHJALCjzcm1lFnj5
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18kl0dLrHHJALCjzcm1lFnj5
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1471743863
+    [currency] => cad
+    [customer] => 
+    [description] => WooMusic - Order 75
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18kl0dLrHHJALCjzcm1lFnj5/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18kl0XLrHHJALCjzKyYGYIcg
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 8
+            [exp_year] => 2017
+            [fingerprint] => berMzQISdJ6IGoSg
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => quirion.mel@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+08-20-2016 @ 21:44:29 - Successful charge: ch_18kl0dLrHHJALCjzcm1lFnj5
